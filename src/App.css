@@ -1,0 +1,115 @@
+/* src/App.css */
+
+/* General Body Style */
+body {
+  background-color: #2b2d42; /* Dark grayish blue */
+  font-family: 'Arial', sans-serif;
+  color: #edf2f4; /* Light grayish blue for text */
+}
+
+/* Container for the form */
+.sales-form-container {
+  max-width: 700px; /* Slightly wider */
+  margin: 30px auto;
+  background-color: #333645; /* Darker, more professional color */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+/* Header Styling */
+.sales-form-header {
+  text-align: center;
+  color: #8d99ae; /* Muted silver-blue for contrast */
+  font-size: 28px; /* Larger font */
+  font-weight: bold; /* Bold font */
+  margin-bottom: 35px;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px; /* Bigger and professional font */
+  border-radius: 6px;
+  border: 1px solid #8d99ae; /* Border matching text color */
+  background-color: #edf2f4; /* Light input background */
+  color: #333645; /* Dark text */
+}
+
+/* Add Item Button Styling */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #e07a5f; /* Muted red-orange */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background-color: #d56f4d; /* Slightly darker hover */
+}
+
+/* Sales Details Header Styling */
+.sales-details-header {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px; /* Bigger font */
+  color: #edf2f4;
+}
+
+/* Sales Details Table Styling */
+.sales-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.sales-details-table th, 
+.sales-details-table td {
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #8d99ae; /* Light silver-blue border */
+}
+
+.sales-details-table th {
+  background-color: #4a4e69; /* Darker header background */
+  color: #edf2f4;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sales-details-table td {
+  background-color: #3d405b; /* Dark row background */
+  color: #edf2f4; /* Light text */
+}
+
+.sales-details-table tfoot {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Delete Button Styling */
+.btn-delete {
+  background-color: #e63946; /* Muted red */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c92b36; /* Darker red on hover */
+}
